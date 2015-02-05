@@ -1,6 +1,6 @@
 language: scala
 scala:
-  - 2.10.3
+  - 2.11.4
 script:
   - sbt compile test:compile
   - sbt test
