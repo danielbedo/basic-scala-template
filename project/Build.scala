@@ -18,11 +18,11 @@ object BuildSettings {
    val buildScalaVersion = "2.11.4"
    val buildScalaOptions = Seq("-unchecked", "-deprecation", "-encoding", "utf8")
    val buildResolvers = Seq[sbt.Resolver](
-    "Typesafe Repo"             at "http://repo.typesafe.com/typesafe/releases/",
-    "Sonatype Snapshots"        at "http://oss.sonatype.org/content/repositories/snapshots",
-    "Sonatype Releases"         at "http://oss.sonatype.org/content/repositories/releases",
-    "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
-  )
+      "Typesafe Repo"             at "http://repo.typesafe.com/typesafe/releases/",
+      "Sonatype Snapshots"        at "http://oss.sonatype.org/content/repositories/snapshots",
+      "Sonatype Releases"         at "http://oss.sonatype.org/content/repositories/releases",
+      "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases"
+   )
 
    import Dependencies._
  
